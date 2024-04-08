@@ -1,0 +1,47 @@
+.header {
+    color: red;
+}
+
+@media (max-width: 768px) {
+	.display-1 {
+		font-size: 5rem;
+	}
+
+	iframe {
+		width: 100% !important;
+	}
+
+	.pt-6 {
+		padding-top: 40px;
+	}
+
+	.p-6 {
+		padding: 40px;
+	}
+
+	.showcase {
+		height: 100% !important;
+		padding-bottom: 80px !important;
+	}
+
+	.about {
+		text-align: center;
+	}
+}
+
+.btn-showcase {
+    background: #cc5f55 !important;
+    margin-top: 50px !important;
+    padding: 10px 50px 10px;
+    border-radius: 5px;
+    margin-top: 350px !important;
+}
+
+.btn-twitter {
+    text-align: center;
+}
+
+body {
+    color: red !important;
+}
+
